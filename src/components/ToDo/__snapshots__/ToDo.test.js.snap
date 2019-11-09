@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Active todo item component unit tests. Component should render successfully 1`] = `ShallowWrapper {}`;

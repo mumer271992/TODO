@@ -1,0 +1,8 @@
+.todo-item{
+  > div:first-child {
+    width: 40%;
+  }
+  @media (max-width: 675px) {
+    flex-direction: column !important;
+  }
+}

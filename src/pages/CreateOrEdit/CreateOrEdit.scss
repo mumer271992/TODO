@@ -1,0 +1,12 @@
+.createoredit-page{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  .action-btns{
+    text-align: end;
+    button {
+      margin-left: 0.2rem;
+    }
+  }
+}
