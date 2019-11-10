@@ -65,7 +65,12 @@ class ToDo extends React.Component {
       >
         <div data-test="todo-item-text">{ todo.text }</div>
         <div>
-          { todo.due_date }
+          <div>Due date</div>
+          <div>{ todo.due_date }</div>
+        </div>
+        <div>
+          <div>Completed date</div>
+          <div>{ todo.completed_at }</div>
         </div>
         <div>
           {

@@ -1,8 +1,12 @@
 .todo-item{
   > div:first-child {
     width: 40%;
+    @media (max-width: 567px) {
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
   }
-  @media (max-width: 675px) {
+  @media (max-width: 567px) {
     flex-direction: column !important;
   }
 }
